@@ -26,6 +26,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
 
+   <!-- jquery  -->
+   <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+   <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   
     <!-- external CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -54,23 +58,26 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Dropdown
+                            <i class="fa-regular fa-user text-primary"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                            <li><a class="dropdown-item" href="#">Register</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
+                </ul>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <button class="btn btn-primary" onclick="darkModu()"> <i class="fa-solid fa-moon"></i></button>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Arama İçin ..." aria-label="Search">
+                    <input id="tags" class="form-control me-2" type="search" placeholder="Arama İçin ..." aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Ara</button>
                 </form>
             </div>
@@ -95,12 +102,23 @@
 
     <!-- start main codes -->
     <main id="main_id">
-        
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet a laboriosam illum rem ex excepturi facilis quasi voluptates sunt. Quod corporis aut ea impedit ullam architecto, quae veritatis quo sed.
+            Architecto nobis quibusdam assumenda vero! Doloremque laboriosam vitae recusandae pariatur nihil sequi, quae, aspernatur quos commodi quasi error! Tempore consequuntur itaque architecto debitis inventore minus, suscipit dolor doloribus. Cum, qui!
+            Sequi aliquam laborum, earum ea animi explicabo cumque saepe voluptates magnam inventore esse, magni, ut natus sit minus amet! Provident laborum nam similique repellendus assumenda praesentium consequatur ex natus animi.
+            Eaque iste molestias, eius saepe, enim facere illum quibusdam placeat tempore cumque odio tempora. Eaque eius beatae, voluptatum nam expedita hic, tenetur vitae dignissimos, quo reiciendis porro amet obcaecati asperiores.
+            Quibusdam, labore adipisci odit voluptatibus officiis laudantium cupiditate quaerat fugit sunt iure quos aperiam ut, officia rerum vero distinctio dolore. Fuga voluptates excepturi ipsa maiores, id consequatur? Temporibus, eum sunt?
+            Incidunt autem neque expedita nemo atque dolorum corrupti consectetur accusantium nulla quos ipsam quibusdam adipisci ab voluptatum mollitia, delectus assumenda enim dignissimos veritatis odio provident ipsum? Exercitationem harum cupiditate totam!
+            Obcaecati consequuntur reprehenderit odio id, sapiente rerum molestiae fuga nobis iure tempore labore, sequi excepturi, iusto veniam quidem atque incidunt dicta officia! Illum laudantium vitae odio laboriosam placeat? Doloremque, a?
+            Asperiores omnis tempore ea aperiam culpa maiores voluptates, quia pariatur quibusdam velit recusandae itaque quis corrupti temporibus non praesentium nobis eveniet explicabo dolores, eaque ipsa consequatur harum facere. Nemo, ea?</p>
+        </section>
     </main>
     <!-- end main codes -->
 
     <!-- start footer codes -->
-    <footer id="footer_id"></footer>
+    <footer id="footer_id" class="bg-dark">
+        <div class="text-center p-5" id="copy_right">2021- <span id="date_id"></span> &copy; Bütün Haklar saklıdır</div>
+    </footer>
     <!-- end footer codes -->
 
     <!-- end codes -->
