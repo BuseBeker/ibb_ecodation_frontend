@@ -45,8 +45,8 @@ console.log(_$deneme44);
 var denemeVerisi="JS Data"
 console.log(denemeVerisi);
 
-// var ~44$deneme44="JS Data"
-// console.log(~44$deneme44);
+// var &~44$deneme44="JS Data"
+// console.log(&~44$deneme44);
 
 // whoisting
 result2=56;
@@ -54,3 +54,67 @@ var result2;
 
 /////////////////////////////////////////////////////////
 // Operators
+// + - * ** / % 
+// ! DEĞİL   && = VE  ||= VEYA
+// x++
+// x--
+// ++x
+// --x
+
+
+// =     ATAMA
+// ==    EŞİT (TÜRÜNE BAKMA)
+// ===   EŞİT (TÜRÜNE BAK)
+
+var number1=40;
+var number2=5;
+console.log(number1+number2);
+console.log(number1-number2);
+console.log(number1*number2);
+console.log(number1/number2);
+console.log(number1%number2);
+
+// cast
+// Number
+// String()
+var userData=Number(prompt("Lütfen sayı giriniz"));
+console.log(userData+45);
+
+// undefined
+var result4;
+console.log(result4);
+
+//NaN: Not A Number
+var result5="asd"/4;
+console.log(result5);
+
+
+// isNaN
+var result6=4;
+console.log(isNaN(result6)); // false: sayıdır
+
+// Infinity
+console.log(4/0);
+
+/////////////////////////////////////////////////////////
+// Math
+
+console.log(Math.PI);
+console.log(Math.E);
+console.log(Math.min(4,1,99,555,22,-111));
+console.log(Math.max(4,1,99,555,22,-111));
+
+console.log(Math.sqrt(16));  // karekök
+console.log(Math.abs(-25));  // mutlak değer
+console.log(Math.pow(2,5));  // üslü sayılar
+
+console.log(Math.floor(3.9));  // sayı ne olursa olsun her zaman aşağı yuvarlar
+console.log(Math.ceil(3.1));  // sayı ne olursa olsun her zaman yukarıya yuvarlar
+console.log(Math.round(6.4));  // .4 ve aşağısında olanları aşağı yuvarlar
+console.log(Math.round(6.5));  // .5 ve üzerindekileri yukarıya yuvarlar
+
+console.log(Math.sin(45));
+
+console.log(Math.round(Math.random()*9+1));  // rastgele sayılar üretir
+
+
