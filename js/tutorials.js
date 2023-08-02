@@ -192,14 +192,48 @@ console.log(data3);
 const data4=55;
 console.log(data4);
 
-const data5=55;
-data5=66;
-console.log(data5);
+// const data5=55;
+// data5=66;
+// console.log(data5);
 
 
 /////////////////////////////////////////////////////////
 // String
+let str="js ÖĞreniyorum js ";
+console.log(str);
+console.log(str.length);
+
+console.log(str.trim().length); // kesitleme -> başındaki ve sonundaki boşlukları aldı
+
+console.log(str.toLowerCase());
+console.log(str.toUpperCase());
+
+console.log(str.charAt(0));
+
+console.log(str.indexOf("js"));  //soldan bulmaya başlar
+console.log(str.lastIndexOf("js"));  //sondan bulmaya başlar
+
+console.log(str.concat("js"));  // sona veri ekleme
+console.log(str.replace(str,"değiştir"));
+
+console.log(str.substring(1));  // parçalama
+console.log(str.substring(0.4));
 
 
-
+/*
+Kullanıcı tarafından girilen bir kelimenin (prompt)
+let userData = pronpt("Lütfen bir şeyler yazınız");
+S-1 Kaç karakterlidir? (length)
+S-2 Boşluklar alınarak kaç karakterlidir? (trim)
+S-3 Bütün kelimeyi küçük harfle göstermek? (toLowerCase())
+S-4 Bütün kelimeyi büyük harfle göstermek? (toUpperCase())
+S-5 Kullanıcıdan alınan ilk kelimeyle, "javascript" kelimeyle değiştir
+console.log(userData.replace("xxxxxx"),"javascript");
+console.log(userData.replace(userData.substring(0,userData.indexOf(" ")), ""))
+S-6 Yazdığınız kelimede "javascript ile mi başlıyor" (startsWith())
+S-7 Yazdığınız kelimede "javascript ile mi bitiyor" (endsWith())
+S-8 İlk harf nedir? (charAt())
+S-9 Girdiğiniz kelimenin sonuna "-ben js öğreniyorum" (concat())
+S-10 Girdiğiniz 0 ile 4 arasındaki indexi ekranda gösterin (subString())
+*/
 
