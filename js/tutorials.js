@@ -117,4 +117,64 @@ console.log(Math.sin(45));
 
 console.log(Math.round(Math.random()*9+1));  // rastgele sayılar üretir
 
+/*
+Örnek-4: Aşağıdaki örnekleri math ile çözelim?
+ -5.9 sayısına aşağıdaki işlemleri yaptıralım
+ 1- mutlak değeri alsın 5.9
+ 2- yuvarlama yapsın 6.0
+ 3- karesini alsın 36.00
+ 4- karekök alsın 6.0
+ 5- yuvarlama yapsın 6.0
+ 6- çıkan sonucu 5 bölsün 6/5=1
+ 7- iki sayı arasından karşılaştırma yapsın en küçüğünü alsın ve 1 ve 5
+ 8- küçük sayı eğer tekse 3 eklesin çiftse 5 eklesin
+
+ örnek-5: Kullanıcı tarafından girilen bir sayıyı negatif mi pozitif mi
+ not: cast kullanalım?
+
+ örnek-6: Kullanıcı tarafından password ve repassword alalım sonrasında
+ eğer aynı girilirse aynı veri yoksa birbirine uymadı yazan algoritma yap
+*/
+
+/////////////////////////////////////////////////////////
+
+// Number
+var sayi=15000;
+console.log(sayi);
+
+var sayi2=1.5E+4;  // same as (var sayi2= 15E+3;) bilimsel gösterim
+console.log(sayi2);
+
+//binary : 0-1
+var binary=0b00011;
+console.log(binary);
+
+//octal : 0-1-2-3-4-5-6-7
+var octal=0o7612;
+console.log(octal);
+
+//decimal : 0-1-2-3-4-5-6-7-8-9
+var decimal=123456;
+console.log(decimal);
+
+//hexadecimal : 0-1-2-3-4-5-6-7-8-9-A-B-C-D-E-F
+var hexadecimal=0xffa;
+console.log(hexadecimal);
+
+// Cast
+// database, port, api (string)
+console.log(Number("10")+10);
+console.log(parseInt("10")+10);
+
+console.log(String(30)+10);
+
+var number=30;
+console.log(number.toString()+10);
+
+/////////////////////////////////////////////////////////
+// var, let, const
+// String
+
+
+
 
