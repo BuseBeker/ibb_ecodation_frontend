@@ -173,6 +173,31 @@ console.log(number.toString()+10);
 
 /////////////////////////////////////////////////////////
 // var, let, const
+
+var data1=11;
+console.log(data1);
+
+var data1=22;
+console.log(data1);
+
+// let bir veri yazdıysan o veriyi sonradan değiştireblilirsin
+let data2=33;
+console.log(data2);
+
+let data3=33;
+data3=44;
+console.log(data3);
+
+// const bir veri yazdıysan o veriyi değiştiremezsin
+const data4=55;
+console.log(data4);
+
+const data5=55;
+data5=66;
+console.log(data5);
+
+
+/////////////////////////////////////////////////////////
 // String
 
 
