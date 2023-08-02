@@ -237,3 +237,37 @@ S-9 Girdiğiniz kelimenin sonuna "-ben js öğreniyorum" (concat())
 S-10 Girdiğiniz 0 ile 4 arasındaki indexi ekranda gösterin (subString())
 */
 
+/////////////////////////////////////////////////////////
+// Function (Normal)
+
+// 1 returnsuz parametresiz
+function returnsuzParametresiz() {
+    console.log("deneme");
+}
+returnsuzParametresiz();
+
+// 2 returnsuz Parametreli
+function returnsuzParametreli(adi){ // parametre: adi
+    console.log("deneme "+adi);
+}
+returnsuzParametreli("BuseB")  // argüman: "BuseB"
+
+// 3 returnlu Parametresiz
+function returnluParametresiz(){
+    return "deneme22";
+}
+let result3 = returnluParametresiz();
+console.log(result3);
+
+// 4 returnlu Parametreli
+function returnluParametreli(soyadi){
+    return "deneme66 "+soyadi;
+}
+let result44 = returnluParametreli("Beker");
+console.log(result44);
+
+/////////////////////////////////////////////////////////
+// Anoymous (Function)
+
+/////////////////////////////////////////////////////////
+// Arrow (Function)
